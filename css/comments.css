@@ -1,0 +1,211 @@
+.people-comments {
+    width: 640px;
+    display: grid;
+    grid-template-columns: 50px 1fr 30px;
+    width: 100%;
+    height: 75%;
+   
+    margin-top: 30px;
+}
+
+.all-comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment1 {
+    margin-top: 8px;
+    width: 640px;
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: 50px 1fr 30px;
+}
+
+.youtuber-detailss {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.pinned {
+    font-family: 'Poppins';
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pinned-image {
+    width: 15px;
+    height: 15px;
+}
+
+.text-hovering:hover {
+    color: aliceblue;
+}
+
+.pinned-comments {
+    color: rgb(112, 125, 125);
+
+}
+
+.pinned-comments> :first-child {
+    margin-bottom: 10px;
+}
+
+.span-comment {
+    position: relative;
+    margin-right: 3px;
+    padding: 3px;
+    border-radius: 30px;
+    background-color: rgb(142, 136, 136);
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: 1px solid #333333;
+    color: rgb(255, 255, 255);
+}
+
+.span-comment .span-tooltip {
+    position: absolute;
+    top: -55px;
+    padding: 5px;
+    right: 5px;
+    z-index: 2;
+    border-radius: 5px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.5s;
+    border: 1px solid #333333;
+    color: aliceblue;
+    background-color: gray;
+}
+
+.span-comment:hover .span-tooltip {
+    opacity: 1;
+}
+
+.pinned-comments> :nth-child(3) {
+    margin-top: 5px;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.links {
+    color: rgb(12, 156, 240);
+}
+
+.para {
+    color: aliceblue;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.name {
+    color: aliceblue;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.ReadMore {
+    font-size: 12px;
+    transition: border-bottom 0.15s;
+    pointer-events: none;
+}
+
+.ReadMore:hover {
+    border-bottom: 1px solid;
+}
+
+.comment-likes {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reply {
+    font-size: 13px;
+    font-family: 'Poppins';
+    margin-left: 15px;
+    padding: 4% 8px;
+    color: aliceblue;
+    border-radius: 40px;
+}
+
+.comment-like,
+.comment-dislike {
+    cursor: pointer;
+}
+
+.comment-like-icon .tooltip-comment,
+.comment-dislike-icon .tooltip-comment {
+    color: aliceblue;
+    position: absolute;
+    padding: 5px;
+    background-color: #817e7e;
+    border-radius: 5px;
+    white-space: nowrap;
+    pointer-events: none;
+    cursor: pointer;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.15;
+
+}
+
+.comment-like-icon:hover .tooltip-comment,
+.comment-dislike-icon:hover .tooltip-comment {
+    opacity: 1;
+}
+
+.reply:hover {
+    background-color: #817e7e;
+}
+
+.bottom-comment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between ; */
+}
+
+.down-arror {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 50%;
+
+    white-space: nowrap;
+}
+
+.down-arror:hover,
+.comment-replies:hover {
+    background-color: #316c9c;
+}
+
+.bottom-profile .bottom-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.middot {
+    margin: 0 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.comment-replies {
+    color: #3ca0f5;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+
+}

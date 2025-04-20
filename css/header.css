@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.left-section {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+
+.youtube-toggle-img {
+    height: 25px;
+    width: 30px;
+
+}
+
+.youtube-toggle-img:hover {
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 25px;
+    background-color: rgba(56, 56, 56, 0.7);
+}
+
+.youtube-logo {
+    width: 105px;
+}
+
+.tooltip {
+    position: absolute;
+    color: white;
+    top: -8px;
+    right: -12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.middel-section {
+    margin-left: 5px;
+    max-width: 600px;
+    height: 50px;
+    display: flex;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 90%;
+    color: aliceblue;
+    height: 40px;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid rgb(40, 40, 40);
+    background-color: transparent;
+}
+
+input::placeholder {
+    padding-left: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: rgb(162, 154, 154);
+    font-size: 16px;
+}
+
+.search-button {
+    height: 40px;
+    border: 1.5px solid rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40);
+    width: 60px;
+    border-top-right-radius: 30px;
+    margin-left: -1px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.search-image {
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.youtube,
+.search-button,
+.voice-search-button,
+.create,
+.notifications {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search-button .tooltip-message,
+.voice-search-button .tooltip-message,
+.create .tooltip-message,
+.notifications .tooltip-message {
+    color: white;
+    position: absolute;
+    bottom: -45px;
+    white-space: nowrap;
+    background-color: rgb(100, 98, 98);
+    padding: 5px;
+    border-radius: 15px;
+    opacity: 0;
+    z-index: 100;
+    font-size: 13px;
+    pointer-events: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.search-button:hover .tooltip-message,
+.voice-search-button:hover .tooltip-message,
+.create:hover .tooltip-message,
+.notifications:hover .tooltip-message {
+    opacity: 1;
+}
+
+.voice-search-image {
+    padding-top: 5px;
+    width: 30px;
+    height: 25px;
+}
+
+.voice-search-button {
+    margin-left: 10px;
+    border: 1px solid rgb(40, 40, 40);
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(40, 40, 40);
+    width: 40px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+}
+
+.create {
+    width: 30px;
+    height: 40px;
+}
+
+.notifications-image {
+    width: 30px;
+    height: 40px;
+}
+
+.myprofile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}

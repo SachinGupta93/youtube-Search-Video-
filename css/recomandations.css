@@ -1,0 +1,175 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+.recommadations {
+    position: relative;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 175px 1fr 40px;
+    margin-right: 65px;
+    height: 110px;
+    cursor: pointer;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.recommadations-video {
+    position: relative;
+    width: 170px;
+    height: 110px;
+}
+
+.recommadation-image {
+    position: absolute;
+    margin-right: 5px;
+    width: 170px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.recommadations-video .watch-later {
+    position: absolute;
+    margin-top: 7px;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s;
+}
+
+.recommadations-video .add-to-queue {
+    position: absolute;
+    pointer-events: none;
+    margin-top: 45px;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.recommadations-video:hover .watch-later {
+opacity: 1;
+}
+.recommadations-video:hover .add-to-queue {
+       opacity: 1;
+}
+.recomandations-info {
+    position: relative;
+    color: #7f7d7d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.recomandations-info-para1 .recomandation-info-tooltip {
+    left: -20px;
+    position: absolute;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    white-space: nowrap;
+    pointer-events: none;
+    padding: 2px 10px;
+    top: 45px;
+    cursor: pointer;
+    opacity: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-color: black;
+    transition: opacity 0.25s;
+}
+
+.para1 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.para2 .verified-tooltip1 {
+    padding: 4px;
+    pointer-events: none;
+    white-space: nowrap;
+    position: absolute;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.para2 .verified-tooltip2 {
+    padding: 5px;
+    pointer-events: none;
+    white-space: nowrap;
+    position: absolute;
+    color: white;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    top: 20px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: rgb(179, 168, 168);
+}
+.verified-image-tooltip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.verified-image-tooltip .tip {
+    padding: 5px;
+    pointer-events: none;
+    white-space: nowrap;
+    position: absolute;
+    color: white;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    top: 10px;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    background-color: rgb(179, 168, 168);
+}
+
+.recomandations-info-para1:hover .recomandation-info-tooltip {
+    opacity: 1;
+}
+
+.para2:hover .verified-tooltip1 {
+    opacity: 1;
+}
+
+.para2:hover .verified-tooltip2 {
+    opacity: 1;
+}
+
+.verified {
+    display: flex;
+}
+
+.verified-image {
+    margin-top: 3.5px;
+    width: 20px;
+}
+
+.vertical-dots {
+    width: 50px;
+    height: 110px;
+}
+
+.verified-image-tooltip:hover .tip {
+    opacity: 1;
+}

@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/genral.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/commentbox.css">
+    <link rel="stylesheet" href="css/comments.css">
+    <link rel="stylesheet" href="css/recomandations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="left-section">
+                <div class="youtube-toggle">
+                    <img class="youtube-toggle-img" src="images/headericons/toggle.svg" alt="">
+                </div>
+                <div class="youtube">
+                    <img class="youtube-logo" src="images/headericons/youtube.svg" alt="">
+                    <div class="tooltip">IN</div>
+                </div>
+            </div>
+            <div class="middel-section">
+                <input class="search-bar" type="search" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-image" src="images/headericons/search.svg" alt="">
+                    <div class="tooltip-message">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-image" src="images/headericons/voice-search-image.svg">
+                    <div class="tooltip-message">Search with your voice</div>
+                </button>
+            </div>
+
+            <div class="right-section">
+                <div class="create">
+                    <img class="create" src="images/headericons/create.svg" alt="">
+                    <div class="tooltip-message">Create</div>
+                </div>
+                <div class="notifications">
+                    <img class="notifications-image" src="images/headericons/notifications.svg" alt="">
+                    <div class="tooltip-message">Notifications</div>
+                </div>
+                <img class="myprofile-image" src="images/headericons/my_profile.jpg" alt="">
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="video">
+            <div class="main-video">
+                <div>
+                    <img class="main-video-image" src="images/playlist/main-video.webp" alt="">
+                    <div class="video-icons">
+                        <div class="lefts">
+                            <div class="play-icon">
+                                <div class="play">
+                                    <img class="play-image" src="images/control-icons/play.svg" alt="">
+                                </div>
+                                <div class="icons-tooltip">Play</div>
+                            </div>
+                            <div class="next-video-icon">
+                                <div class="next-video">
+                                    <img class="next-image" src="images/control-icons/next-button.svg" alt="">
+                                </div>
+                                <div class="icons-tooltip">Play Next</div>
+                            </div>
+
+                            <div class="volume-container">
+                                <div class="volume">
+                                    <div class="volume-icon">
+                                        <img class="volume-image" src="images/control-icons/speaker.svg" alt="">
+                                        <div class="icons-tooltip">Mute</div>
+                                    </div>
+                                    <div class="transform-volume">
+                                        <div class="range">
+                                        </div>
+                                        <div class="range-circle"></div>
+                                        <div class="video-time">5:58:57 / 6:31:23 &middot; Finish The Project</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <div class="autoplay-icon">
+                                <div class="autoplay"><img class="autoplay-image"
+                                        src="images/control-icons/play-toggle-button (1).png" alt="">
+                                    <div class="icons-tooltip">Auto play is On</div>
+                                    <div class="autoplay-padding"></div>
+                                </div>
+                            </div>
+                            <div class="subtitles-icon">
+                                <div class="subtitles"><img src="images/control-icons/caption.svg" alt=""
+                                        class="subtitles-image"></div>
+                                <div class="icons-tooltip">Subtitles/closed captions (c)</div>
+                            </div>
+                            <div class="settings-icon">
+                                <div class="settings">
+                                    <img src="images/control-icons/settings.svg" class="settings-image">
+                                </div>
+                                <div class="icons-tooltip">Settings</div>
+                            </div>
+                            <div class="mini-screen-icon">
+
+                                <div class="mini-screen"><img src="images/control-icons/miniplayer.svg" alt=""
+                                        class="mini-screen-image"></div>
+                                <div class="icons-tooltip">Miniplayer (i)</div>
+                            </div>
+                            <div class="theatre-icon">
+                                <div class="theater"><img src="images/control-icons/theater.svg" alt=""
+                                        class="theater-image"></div>
+                                <div class="icons-tooltip">Cinema Mode (t)</div>
+                            </div>
+                            <div class="full-screen-icon">
+                                <div class="full-screen"><img src="images/control-icons/full-screen.svg" alt=""
+                                        class="full-screen-image"></div>
+                                <div class="icons-tooltip">Full Screen (f)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-video-playlist">
+                <div class="playlist">
+                    <div class="absolute-message">sync to video time</div>
+                    <div class="channels">
+                        <div class="channels-message">
+                            <h3>Chapters</h3>
+                        </div>
+                        <div class="cross"><img class="cross-image" src="images/playlist/Cross.svg" alt=""></div>
+                    </div>
+                    <div class="all-playlist">
+                        <!-- intro -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist1.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">Intro
+
+                                        <div class="tooltip-of-message">Intro</div>
+                                    </div>
+                                    <p class="time">0:00</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video1 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist2.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">1.Html Basics
+
+                                        <div class="tooltip-of-message">1.Html Basics</div>
+                                    </div>
+                                    <p class="time"> 1:07 </p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video2 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist3.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">2.CSS Basics
+
+                                        <div class="tooltip-of-message">2.CSS Basics</div>
+                                    </div>
+                                    <p class="time">17:42</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video3 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist4.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">3.Hovers, Transitions, Shadows
+
+                                        <div class="tooltip-of-message">3.Hovers, Transitions, Shadows </div>
+                                    </div>
+                                    <p class="time">44:39</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video4 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist5.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">4.Chrome DevTools & CSS Box Model
+
+                                        <div class="tooltip-of-message">4.Chrome DevTools & CSS Box Model </div>
+                                    </div>
+                                    <p class="time">1:03:10</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video5 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist6.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">5.Text Styles
+
+                                        <div class="tooltip-of-message">5.Text Styles </div>
+                                    </div>
+                                    <p class="time">1:17:30</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video6 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist7.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">6.The HTML Structure
+                                        <div class="tooltip-of-message">>6.The HTML Structure </div>
+                                    </div>
+                                    <p class="time">1:52:18</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video7 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist8.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">7.Images and Text Boxes
+                                        <div class="tooltip-of-message">>7.Images and Text Boxes </div>
+                                    </div>
+                                    <p class="time">2:11:08</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video8 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist9.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">8.CSS Display Property
+                                        <div class="tooltip-of-message">8.CSS Display Property </div>
+                                    </div>
+                                    <p class="time">2:25:42</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video9 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist10.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">9.The div Element
+                                        <div class="tooltip-of-message">9.The div Element </div>
+                                    </div>
+                                    <p class="time">2:34:55</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video10 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist11.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">10. Nested Layouts Technique
+                                        <div class="tooltip-of-message">10. Nested Layouts Technique </div>
+                                    </div>
+                                    <p class="time">2:6:55</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video11 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist12.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">11.CSS Grid
+                                        <div class="tooltip-of-message">11.CSS Grid </div>
+                                    </div>
+                                    <p class="time">3:16:58</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video12 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">12.Flexbox
+                                        <div class="tooltip-of-message">12.Flexbox </div>
+                                    </div>
+                                    <p class="time">3:43:58</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video13 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">13.Nested Flexbox
+                                        <div class="tooltip-of-message">13.Nested Flexbox </div>
+                                    </div>
+                                    <p class="time">4:15:21</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video14 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">14.CSS Position
+                                        <div class="tooltip-of-message">14.CSS Position </div>
+                                    </div>
+                                    <p class="time">4:44:36</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video15 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">15.Position Absolute and Relative
+                                        <div class="tooltip-of-message">15.Position Absolute and Relative </div>
+                                    </div>
+                                    <p class="time">5:07:14</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video16 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">16.Finish The Project
+                                        <div class="tooltip-of-message">16.Finish The Project
+                                        </div>
+                                    </div>
+                                    <p class="time">5:33:49</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- playlist-video17 -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">17.More About CSS
+                                        <div class="tooltip-of-message">17.More About CSS
+                                        </div>
+                                    </div>
+                                    <p class="time">6:07:46</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- outro -->
+                        <div class="playlist-info">
+                            <div class="playlist-message">
+                                <img class="playlist-image" src="images/playlist/playlist13.webp" alt="">
+                                <div class="video-message">
+
+                                    <div class="message-of-video">Outro
+                                        <div class="tooltip-of-message">Outro
+                                        </div>
+                                    </div>
+                                    <p class="time">6:30:21</p>
+                                </div>
+                            </div>
+
+                            <div class="playlist-icons">
+                                <div class="share">
+                                    <img class="share-image" src="images/playlist/share.svg" alt="">
+                                </div>
+                                <div class="repeat">
+                                    <img src="images/playlist/repeat.svg" alt="" class="repeat-image">
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <main>
+
+        <h2 style="color: white; width: 640px;">HTML & CSS Full Course - Beginner to Pro</h2>
+
+        <div class="about">
+            <div class="grid">
+                <div class="youtuber">
+                    <div class="right">
+                        <div class="youtuber-details">
+                            <img src="images/comments/youtuber-profile.jpg" alt="" class="youtuber-profile">
+                        </div>
+                        <div class="youtuber-subscribers">
+                            <p class="youtuber-name">SuperSimpleDev</p>
+                            <p class="youtuber-info">444ksubscribers</p>
+                        </div>
+                        <div class="subscriber">Subscribe</div>
+                    </div>
+                    <div class="left">
+                        <div class="youtuber-likes">
+                            <div class="like">
+                                <div class="likes">
+                                    <img class="like-image" src="images/comments/like.svg" alt="">
+                                    <div class="likes-count">202k</div>
+                                    <div class="like-tooltip">I Like This </div>
+                                </div>
+                                <div class="dislike">
+                                    <img class="dislike-image" src="images/comments/dislike.svg" alt=""
+                                        class="dislike-image">                             
+                                    <div class="like-tooltip">I DisLike This </div>
+                                </div>
+                            </div>
+                            <div class="shares">
+                                <img src="images/comments/share.svg" alt="" class="share-image">
+                                <div class="share-message">Share</div>
+                                <div class="share-tooltip">Share</div>
+                            </div>
+                            <div class="dots">
+                                <img src="images/comments/dots.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-section">
+                    <div class="youtuber-video-details">
+                        <div class="details">
+                            <div class="views-tooltip">
+                                <p>10M views 2 years ago <span class="first-span">#softwareengineer #html #css </span>
+                                </p>
+                                <div class="total-views-tooltip">
+                                    10,190,016 &middot; #softwareengineer #html #css
+                                </div>
+                            </div>
+
+                            <p>Certificates are now available! <span
+                                    class="second-span">https://courses.supersimple.dev/cours...</span> </p>
+                            <p> Enroll to get a Certificate of Completion and an elevated learning experience (breakdown
+                                into
+                                smaller videos covering specific topics, ad-free content, and progress tracking). …more
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-comments">
+
+                        <div class="total-comments">2851 Comments</div>
+                        <div class="sort-by"><img class="sort-by-image" src="images/comments/sort-by.svg" alt=""></div>
+                        <div class="sort-by-message">Sort by</div>
+                    </div>
+                    <div class="your-comment">
+                        <div class="my-comment">
+                            <img class="myprofile-image" src="images/headericons/my_profile.jpg" alt="">
+                        </div>
+                        <div class="add-comment">Add a Comment</div>
+                    </div>
+                    <div class="people-comments">
+                        <div class="all-comments">
+
+                            <!-- comment1 -->
+                            <div class="comment1">
+
+                                <div class="youtuber-detailss">
+                                    <img src="images/comments/youtuber-profile.jpg" alt="" class="youtuber-profile">
+                                </div>
+                                <div class="pinned"><img class="pinned-image" src="images/comments/pinned.svg" alt="">
+                                    <div class="pinned-comments">
+                                        <div>Pinned by SuperSimpleDev</div>
+                                        <div>
+                                            <span class="span-comment">
+                                                @SuperSimpleDev
+                                                <div class="span-tooltip">
+                                                    @SuperSimpleDev
+                                                </div>
+                                            </span>
+                                            <span class="text-hovering">
+
+                                                11 months ago (edited)
+                                            </span>
+
+                                        </div>
+                                        <div>I recommend these videos as the next step after this course: Put a website
+                                            on
+                                            the Internet ( <span class="links"> https://youtu.be/p1QU3kLFPdg)</span>,
+                                            JavaScript course (<span class="links">
+                                                https://youtu.be/EerdGm-ehJQ)
+                                            </span>
+
+                                            </span>
+
+                                            </span>
+                                            Lesson 10: if you're confused with vertical vs horizontal layouts, it may
+                                            help
+                                            to see this updated diagram: <span
+                                                class="links">https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/3-</span>..
+                                        </div>
+                                        <span class="ReadMore">ReadMore </span>
+                                        <div class="comment-likes">
+                                            <div class="comment-like-icon">
+                                                <div class="comment-like">
+                                                    <img class="like-image" src="images/comments/like.svg" alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div style="cursor: text;">769</div>
+                                            <div class="comment-dislike-icon">
+
+                                                <div class="comment-dislike">
+                                                    <img class="dislikes-image" src="images/comments/dislike.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Dislike</div>
+                                            </div>
+                                            <div class="reply">Reply</div>
+                                        </div>
+                                        <div class="bottom-comment">
+                                            <div class="down-arror"><img src="images/comments/down-arrow.svg" alt=""
+                                                    class="down-arrow-image"></div>
+                                            <div class="bottom-profile">
+                                                <img src="images/comments/youtuber-profile.jpg" alt=""
+                                                    class="bottom-profile-image">
+                                            </div>
+                                            <div class="middot"></div>
+                                            <div class="comment-replies">105 replies</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-dots">
+                                    <img class="vertical-dots-image" src="images/comments/vertical-dots.svg">
+                                </div>
+                            </div>
+                            <!-- comment2 -->
+                            <div class="comment1">
+
+                                <div class="youtuber-detailss">
+                                    <img src="images/comments/comment-profile2.jpg" alt="" class="youtuber-profile">
+                                </div>
+                                <div class="pinned">
+                                    <div class="pinned-comments">
+
+                                        <div>
+                                            <span class="name">
+
+                                                @martapfahl940
+                                            </span>
+                                            <span class="text-hovering">
+                                                1 year ago
+                                            </span>
+
+                                        </div>
+                                        <div class="para">
+                                            I wanted to say THANK YOU I got my first web dev job! I started 9 months ago
+                                            with this course and now I made a portfolio based on React Typescript
+                                            projects and will start into my first frontend engineer job in July &middot;
+                                            Believe in yourself guys! You can make it!
+                                        </div>
+                                        <div class="comment-likes">
+                                            <div class="comment-like-icon">
+                                                <div class="comment-like">
+                                                    <img class="like-image" src="images/comments/like.svg" alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div style="cursor: text; color: gray;">409</div>
+                                            <div class="comment-dislike-icon">
+
+                                                <div class="comment-dislike">
+                                                    <img class="dislikes-image" src="images/comments/dislike.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Dislike</div>
+                                            </div>
+                                            <div class="reply">Reply</div>
+                                        </div>
+                                        <div class="bottom-comment">
+                                            <div class="down-arror"><img src="images/comments/down-arrow.svg" alt=""
+                                                    class="down-arrow-image"></div>
+                                            <div class="bottom-profile">
+                                                <img src="images/comments/youtuber-profile.jpg" alt=""
+                                                    class="bottom-profile-image">
+                                            </div>
+                                            <div class="middot"></div>
+                                            <div class="comment-replies">30 replies</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-dots">
+                                    <img class="vertical-dots-image" src="images/comments/vertical-dots.svg">
+                                </div>
+                            </div>
+                            <!-- comment3 -->
+                            <div class="comment1">
+
+                                <div class="youtuber-detailss">
+                                    <img src="images/comments/comment-profile3.jpg" alt="" class="youtuber-profile">
+                                </div>
+                                <div class="pinned">
+                                    <div class="pinned-comments">
+
+                                        <div>
+                                            <span class="name">
+                                                @mathgodpiextras
+                                            </span>
+                                            <span class="text-hovering">
+                                                4 months ago (edited)
+                                            </span>
+
+                                        </div>
+                                        <div style="color: aliceblue; font-family: 'Poppins'; font-weight: 500;">
+                                            <div>Just a quick tip. Instead of:</div>
+                                            <div> margin-top: 1px;</div>
+                                            <div> margin-right: 2px; </div>
+                                            <div> margin-bottom: 3px;</div>
+                                        </div>
+                                        <div class="ReadMore">ReadMore </div>
+                                        <div class="comment-likes">
+                                            <div class="comment-like-icon">
+                                                <div class="comment-like">
+                                                    <img class="like-image" src="images/comments/like.svg" alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div style="cursor: text;">500</div>
+                                            <div class="comment-dislike-icon">
+
+                                                <div class="comment-dislike">
+                                                    <img class="dislikes-image" src="images/comments/dislike.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Dislike</div>
+                                            </div>
+                                            <div class="reply">Reply</div>
+                                        </div>
+                                        <div class="bottom-comment">
+                                            <div class="down-arror"><img src="images/comments/down-arrow.svg" alt=""
+                                                    class="down-arrow-image"></div>
+                                            <div class="bottom-profile">
+                                                <img src="images/comments/youtuber-profile.jpg" alt=""
+                                                    class="bottom-profile-image">
+                                            </div>
+                                            <div class="middot"></div>
+                                            <div class="comment-replies">10 replies</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-dots">
+                                    <img class="vertical-dots-image" src="images/comments/vertical-dots.svg">
+                                </div>
+                            </div>
+                            <!-- comment4 -->
+                            <div class="comment1">
+
+                                <div class="youtuber-detailss">
+                                    <img src="images/comments/channels4_profile.jpg" alt="" class="youtuber-profile">
+                                </div>
+                                <div class="pinned">
+                                    <div class="pinned-comments">
+
+                                        <div>
+                                            <span class="name">
+
+                                                @JamaicanBeer-pk2bp
+                                            </span>
+                                            <span class="text-hovering">
+                                                3 weeks ago (edited)
+                                            </span>
+
+                                        </div>
+                                        <div style="color: aliceblue; font-family: 'Poppins'; font-weight: 500;">
+                                            Came back after two years to give my thanks :) . I started programming 2
+                                            years ago because of this particular video, it really helped me start my
+                                            programming journey! Thanks a lot! Have a nice day ahead Simon!
+
+                                        </div>
+                                        <div class="comment-likes">
+                                            <div class="comment-like-icon">
+                                                <div class="comment-like">
+                                                    <img class="like-image" src="images/comments/like.svg" alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Like</div>
+                                            </div>
+                                            <div style="cursor: text;">500</div>
+                                            <div class="comment-dislike-icon">
+
+                                                <div class="comment-dislike">
+                                                    <img class="dislikes-image" src="images/comments/dislike.svg"
+                                                        alt="">
+                                                </div>
+                                                <div class="tooltip-comment">Dislike</div>
+                                            </div>
+                                            <div class="reply">Reply</div>
+                                        </div>
+                                        <div class="bottom-comment">
+                                            <div class="down-arror"><img src="images/comments/down-arrow.svg" alt=""
+                                                    class="down-arrow-image"></div>
+                                            <div class="bottom-profile">
+                                                <img src="images/comments/youtuber-profile.jpg" alt=""
+                                                    class="bottom-profile-image">
+                                            </div>
+                                            <div class="middot"></div>
+                                            <div class="comment-replies">1 replies</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vertical-dots">
+                                    <img class="vertical-dots-image" src="images/comments/vertical-dots.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-layout">
+                <!-- recomandation1 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations1.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">How To become A Game Developer | Complete Roadma...</P>
+
+                            <div class="recomandation-info-tooltip">How To become A Game Developer | Complete Roadma
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>CodeWithHarry</P>
+
+                                <div class="verified-tooltip1">CodeWithHarry</div>
+                                <div class="verified-tooltip2">CodeWithHarry</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>395kviews &middot; 2Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation2 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations2.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">How To Put an Html Website Online (on the Internet)</P>
+
+                            <div class="recomandation-info-tooltip">How To Put an Html Website Online (on the Internet)
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>SuperSimpleDev</P>
+
+                                <div class="verified-tooltip1">SuperSimpleDev</div>
+                                <div class="verified-tooltip2">SuperSimpleDev</div>
+                            </div>
+                        </div>
+                        <P>1.5Mviews &middot; 2Yearss ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation3 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations3.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">How I Learned to code in 4Months & Got a Job!</P>
+
+                            <div class="recomandation-info-tooltip">How I Learned to code in 4Months & Got a Job!
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>Tim Kim</P>
+
+                                <div class="verified-tooltip1">Tim Kim</div>
+                                <div class="verified-tooltip2">Tim Kim</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>5Mviews &middot; 11Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation4 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations4.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1"> Gangs Of Wasseypur का Reunion | Nawazuddin Siddiqui </P>
+
+                            <div class="recomandation-info-tooltip">Gangs Of Wasseypur का Reunion | Nawazuddin Siddiqui
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>SetIndia</P>
+
+                                <div class="verified-tooltip1">SetIndia</div>
+                                <div class="verified-tooltip2">SetIndia</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>4mviews &middot; 11Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation5 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations5.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">UPSC - Stand Up Comedy Ft.Anubhav Singh Bassi </P>
+
+                            <div class="recomandation-info-tooltip"> UPSC - Stand Up Comedy Ft.Anubhav Singh Bassi
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>Anubhav Singh Bassi</P>
+
+                                <div class="verified-tooltip1">Anubhav Singh Bassi</div>
+                                <div class="verified-tooltip2">Anubhav Singh Bassi</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>54Mviews &middot; 10Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation6 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations6.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">salman kahhan at kapil sharma show full Dhammal</P>
+
+                            <div class="recomandation-info-tooltip"> salman kahhan at kapil sharma show full Dhammal
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>KapilSharmaShow</P>
+
+                                <div class="verified-tooltip1">KapilSharmaShow</div>
+                                <div class="verified-tooltip2">KapilSharmaShow</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>5Mviews &middot; 1year ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation7 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations8.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">Learn Flexbox CSS in 8 Minutes</P>
+
+                            <div class="recomandation-info-tooltip">Learn Flexbox CSS in 8 Minutes </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>slaying The dragon</P>
+
+                                <div class="verified-tooltip1">slaying The dragon</div>
+                                <div class="verified-tooltip2">slaying The dragon</div>
+                            </div>
+
+                        </div>
+                        <P>1.4M views &middot; 1 year ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation8 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations7.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">
+                                Pitcher की Presentation के बाद Aman ने पूछा ‘Khaane Me Kya Hai?’ | Shark Tank India S3
+                            </P>
+
+                            <div class="recomandation-info-tooltip">
+                                Pitcher की Presentation के बाद Aman ने पूछा ‘Khaane Me Kya Hai?’ | Shark Tank India S3
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>Shark Tank India</P>
+
+                                <div class="verified-tooltip1">Shark Tank India</div>
+                                <div class="verified-tooltip2">Shark Tank India</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>11Mviews &middot; 4Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation9 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations9.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">Is Data Science is a Good Career </P>
+
+                            <div class="recomandation-info-tooltip"> Is Data Science is a Good Career
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>Codebasics</P>
+
+                                <div class="verified-tooltip1">Codebasics</div>
+                                <div class="verified-tooltip2">Codebasics</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>69kviews &middot; 4Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+                <!-- recomandation10 -->
+                <div class="recommadations">
+                    <div class="recommadations-video">
+                        <img class="recommadation-image" src="images/Recomondations/recomandations10.webp" alt=""
+                            class="recommandation-image">
+                        <div class="watch-later"><img src="images/comments/watch-later.svg" alt=""
+                                class="watch-later-image"></div>
+                        <div class="add-to-queue"><img src="images/comments/add-to-queue.svg" alt=""></div>
+                    </div>
+                    <div class="recomandations-info">
+                        <div class="recomandations-info-para1">
+                            <P class="para1">50+ LPA Roadmap | ezSnippet | Neeraj Walia </P>
+
+                            <div class="recomandation-info-tooltip"> 50+ LPA Roadmap | ezSnippet | Neeraj Walia
+                            </div>
+                        </div>
+                        <div class="verified">
+                            <div class="para2">
+                                <P>Neeraj Walia
+                                </P>
+
+                                <div class="verified-tooltip1">Neeraj Walia</div>
+                                <div class="verified-tooltip2">Neeraj Walia</div>
+                            </div>
+                            <div class="verified-image-tooltip">
+                                <div><img class="verified-image" src="images/comments/verified.svg" alt=""></div>
+                                <div class="tip">Verified</div>
+                            </div>
+                        </div>
+                        <P>975 kviews &middot; 4 Months ago</P>
+                    </div>
+                    <div class="vertical-dots">
+                        <img src="images/comments/vertical-dots.svg" alt="" class="vertical-dots-image">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+</body>
+
+</html>

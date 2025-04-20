@@ -1,0 +1,12 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(23, 23, 23);
+    width: 100%;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+     font-family: "Poppins", sans-serif;
+}
